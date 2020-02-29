@@ -1,6 +1,5 @@
 import 'package:databank/services/networking.dart';
 import 'package:databank/databank_global_variables.dart';
-import 'package:databank/services/shared_preferences.dart';
 
 class WorkerModel {
   Future<dynamic> getWorkerData() async {

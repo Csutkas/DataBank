@@ -1,14 +1,14 @@
-import 'package:databank/databank_global_variables.dart';
 import 'package:flutter/material.dart';
+import 'package:databank/databank_global_variables.dart';
 
 // Components and Services
 import 'package:flutter/services.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:databank/services/shared_preferences.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 // Screens
 import 'package:databank/menu.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 ///// Orientation handling /////
 mixin PortraitModeMixin on StatelessWidget {
@@ -69,7 +69,6 @@ class MyApp extends StatelessWidget with PortraitModeMixin {
     super.build(context);
     return MaterialApp(
       theme: ThemeData(
-        // brightness: Brightness.light,
         appBarTheme: AppBarTheme(
           color: Color(0xFFf8f8f8),
           iconTheme: IconThemeData(
@@ -78,15 +77,9 @@ class MyApp extends StatelessWidget with PortraitModeMixin {
           ),
         ),
 
-        // Drawer background color - blackish // UserAccountDrawerHeader
+        // Drawer background color
         canvasColor: Color(0xFFf1f1f1),
-        //canvasColor: Colors.white,
       ),
-      /*
-      darkTheme: ThemeData(
-        brightness: Brightness.light,
-      ),
-       */
       home: MyHomePage(),
     );
   }

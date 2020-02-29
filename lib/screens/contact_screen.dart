@@ -91,7 +91,7 @@ class _ContactScreenState extends State<ContactScreen> {
               height: ScreenUtil.getInstance().setHeight(70),
             ),
 
-            ///// HOLFY Button /////
+            ///// Button /////
             Container(
               width: ScreenUtil.getInstance().setWidth(680),
               height: ScreenUtil.getInstance().setHeight(85),
@@ -131,7 +131,7 @@ class _ContactScreenState extends State<ContactScreen> {
               height: ScreenUtil.getInstance().setHeight(25),
             ),
 
-            ///// FB and Insta Icon /////
+            ///// Social media icons /////
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[

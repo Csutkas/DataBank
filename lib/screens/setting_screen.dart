@@ -94,7 +94,6 @@ class _SettingScreenState extends State<SettingScreen> {
 
                 ///// First row -  List size
                 FlatButton(
-                  //materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                   padding: EdgeInsets.all(0),
                   onPressed: () {
                     showModalBottomSheet(

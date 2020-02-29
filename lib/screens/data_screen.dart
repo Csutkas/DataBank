@@ -142,6 +142,7 @@ class WorkersLineWidget extends StatelessWidget {
                   height: ScreenUtil.getInstance().setHeight(120),
                   width: ScreenUtil.getInstance().setWidth(30),
                 ),
+
                 ///// THUMBNAIL PICTURE /////
                 Column(
                   children: <Widget>[
@@ -166,7 +167,6 @@ class WorkersLineWidget extends StatelessWidget {
                       ),
 
                       ///// TITLE NAME /////
-
                       Text(
                         titleName,
                         style: TextStyle(
@@ -181,8 +181,8 @@ class WorkersLineWidget extends StatelessWidget {
                       SizedBox(
                         width: ScreenUtil.getInstance().setWidth(12),
                       ),
-                      ///// FIRST NAME /////
 
+                      ///// LAST NAME /////
                       Flexible(
                         child: Text(
                           lastName,
@@ -201,8 +201,8 @@ class WorkersLineWidget extends StatelessWidget {
                       SizedBox(
                         width: ScreenUtil.getInstance().setWidth(12),
                       ),
-                      ///// LAST NAME /////
 
+                      ///// FIRST NAME /////
                       Flexible(
                         child: Text(
                           firstName,
@@ -270,8 +270,6 @@ class WorkersLineWidget extends StatelessWidget {
                 ),
               ],
             ),
-            // onPressed: null,
-
             onPressed: () => Navigator.push(
               context,
               MaterialPageRoute(
@@ -289,11 +287,10 @@ class WorkersLineWidget extends StatelessWidget {
                     dobDate,
                     dobAge),
               ),
-              //LoadingScreen("station", lineStationId)),
             ),
           ),
 
-          ///// Gray separator between favourite lines /////
+          ///// Gray separator /////
           Container(
               height: ScreenUtil.getInstance().setHeight(0.8),
               width: ScreenUtil.getInstance().width,

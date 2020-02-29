@@ -313,7 +313,6 @@ class LineDataWidget extends StatelessWidget {
                   fontFamily: 'SF_Pro',
                   fontWeight: FontWeight.w400,
                   color: Color(0xFF9a9a9a),
-                  //color: Color(0xFF919191),
                 ),
                 overflow: TextOverflow.fade,
                 maxLines: 1,

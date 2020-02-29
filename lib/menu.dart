@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 // Components and Services
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import 'package:flutter/services.dart';
 
 // Screens

@@ -10,10 +10,6 @@ class ShareFavourites {
 
     await prefs.setInt(workersNumberKey, workersNumber);
     await prefs.setBool(letPersonalDataKey, letPersonalData);
-
-    print("Saved workersNumber / letPersonalData: " +
-        workersNumber.toString() +
-        letPersonalData.toString());
   }
 
   Future readData() async {
@@ -24,10 +20,5 @@ class ShareFavourites {
 
     workersNumber = prefs.getInt(workersNumberKey).toInt() ?? "";
     letPersonalData = prefs.getBool(letPersonalDataKey) ?? "";
-
-    print('Shared preferences read workersNumber / letPersonalData: ' +
-        workersNumber.toString() +
-        " " +
-        letPersonalData.toString());
   }
 }
