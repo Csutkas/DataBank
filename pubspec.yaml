@@ -1,0 +1,46 @@
+name: databank
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+4
+  flutter_screenutil: ^0.6.1
+  json_annotation: ^3.0.0
+  json_serializable: ^3.2.5
+  country_icons: ^1.1.1
+  url_launcher: ^5.2.7
+  community_material_icon: ^3.5.95
+  shared_preferences: ^0.5.4+5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: SF_Pro
+      fonts:
+        - asset: fonts/SF_Pro/SF-Pro-Display-Black.otf
+        - asset: fonts/SF_Pro/SF-Pro-Display-Bold.otf
+        - asset: fonts/SF_Pro/SF-Pro-Display-Heavy.otf
+        - asset: fonts/SF_Pro/SF-Pro-Display-Light.otf
+        - asset: fonts/SF_Pro/SF-Pro-Display-Medium.otf
+        - asset: fonts/SF_Pro/SF-Pro-Display-Regular.otf
+        - asset: fonts/SF_Pro/SF-Pro-Display-Semibold.otf
+        - asset: fonts/SF_Pro/SF-Pro-Display-Thin.otf
+        - asset: fonts/SF_Pro/SF-Pro-Display-Ultralight.otf
